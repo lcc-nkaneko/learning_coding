@@ -40,7 +40,6 @@ class Solution {
 
   public long digitsLong(String s) {
     String digits = "";
-    Boolean startZero = true;
     for (int i = 0; i < s.length(); i++) {
       if (Character.isDigit(s.charAt(i))) {
         if (s.charAt(i) == '0' && digits.length() == 0) {
